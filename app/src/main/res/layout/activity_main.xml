@@ -8,10 +8,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rohanpaithankar.project.MainActivity">
+    tools:context="com.example.rohanpaithankar.project.MainActivity"
+    android:background="@android:color/darker_gray">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.96"
+            android:background="@android:color/background_light"
+            android:hint="Search Product" />
+        <Button
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_launcher"
+            android:layout_weight="0.03" />
+    </LinearLayout>
+
+
 </RelativeLayout>
