@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <!-- Splash screen -->
         <activity
             android:name=".Splashscreen.SplashScreen"
@@ -19,11 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WelcomeActivity"></activity>
-        <!--Main Activity-->
-        <activity android:name=".MainActivity"
-            android:label="@string/app_name">
-        </activity>
+        <activity android:name=".WelcomeActivity" />
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".search_activity"></activity>
     </application>
 
 </manifest>
