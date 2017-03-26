@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
 
         <EditText
             android:id="@+id/editText4"
@@ -23,9 +24,10 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="66dp"
-            android:layout_height="64dp"
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/ic_search_black_24dp" />
 
     </LinearLayout>
+
 </android.widget.RelativeLayout>
