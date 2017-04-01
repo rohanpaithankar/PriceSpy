@@ -16,10 +16,10 @@
         android:id="@+id/Search"
         android:layout_width="183dp"
         android:layout_height="180dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/ic_search"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView"

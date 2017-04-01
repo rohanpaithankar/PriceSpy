@@ -21,6 +21,11 @@
     <color name="dot_light_screen2">#8cf9eb</color>
     <color name="dot_light_screen3">#3f4f60</color>
     <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="colorPrimary2">#F50057</color>
+    <color name="colorPrimaryDark2">#F50057</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>
