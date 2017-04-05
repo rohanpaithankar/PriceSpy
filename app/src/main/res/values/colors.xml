@@ -25,7 +25,7 @@
     <color name="colorPrimaryDark2">#F50057</color>
     <color name="colorAccent2">#FF4081</color>
     <color name="viewBg">#f1f5f8</color>
-    <color name="album_title">#4c4c4c</color>
+
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>
